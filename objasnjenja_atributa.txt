@@ -1,0 +1,32 @@
+- a1RR, a2RR, a1Resp, a2Resp: kratkodometni i dugodometni skalirajuci eksponent koji dobijamo primenom DFA na srčani odnosno respiratorni signal- Serr, Serresp: Entropija uzorka (SampEn srčanog odnosno respiratornog signala- SD1, SD2: standardne devijacije srčanog signala- C1, C2: srednje vrednost srčanog signala
+- Pearson: korelacija signala 
+- C1mC2: C1 - C2
+- SD1SD2: SD1 / SD2 
+- a1rra2rr: a1rr / a2rr, 
+- a1respa2resp: a1resp / a2resp- cse: unakrsna entropija uzorka (crossSampEn)
+- rr: rastojanje izmedju dva QRS kompleksa izrazeno u sekundama
+- bb: rastojanje izmedju dva BB intervala izrazeno u sekundama- hr: frekvencija otkucaja izrazena u Hz- bf: frekvencija disanja izrazena u Hz- prezivljavanje: prezivljavanje pacijenta tokom perioda pracenja 
+- prezivljavanje_1: prezivljavanje godinu dana nakon operacije i ugradnje ICD
+- prezivljavanje_2: prezivljavanje dve godine nakon operacije i ugradnje ICD
+- prezivljavanje_3: prezivljavanje tri godine nakon operacije i ugradnje ICD
+- VTVF: pacijent je imao VT/VF stanje
+- VTVF_1: pacijente je imao VT/VF stanje i umro u prvoj godini od operacije
+- VTVF_2: pacijente je imao VT/VF stanje i umro u drugoj godini od operacije- VTVF_3: pacijente je imao VT/VF stanje i umro u trecoj godini od operacije
+analogno sa prezivljavanjem, pojava VT/VF stanja tokom pracenja
+- ICDterapija: ICD uredjaj se aktivirao u nekom trenutku pracenja i isporucio terapiju- ICDterapija_1: ICD uredjaj se aktivirao u prvoj godini i pacijent je umro u prvoj godini od operacije- ICDterapija_2: ICD uredjaj se aktivirao u drugoj godini i pacijent je umro u drugoj godini od operacije
+- ICDterapija_3: ICD uredjaj se aktivirao u trecoj godini i pacijent je umro u trecoj godini od operacije
+- starost: starost pacijenta
+- pol: pol pacijenta
+- vreme_do_prve_VT: broj meseci do prve komorske aritmije 
+- vreme_do_prve_ICDth: broj meseci do prve ICD terapije
+- IBS: pacijent imao ishemijsku bolest srca
+- znacajan_broj_VES: znacajan broj VES/min na 24h Holteru
+- AF_pre_ugradnje: da li je pacijent imao AF (atrijalne fibrilacije) pre ugradnje ICD-a
+- HTA: Hipertenzija pre ugradnje ICD-a
+- DM: "Diabetes melitus" pre ugradnje ICD-a
+- HLP: Hiperlipoproteinemija pre ugradnje ICD-a
+- Pusenje: da li je pacijent pusac
+- HOBP: Hronicna opstruktivna bolest pluca pre ugradnje ICD-a
+- Amiodaron: Da li je pacijent imao ukljucen lek Amiodaron u terapiji
+- Trajanje_bolesti: trajanje srcane slabosti pre ugradnje ICD-a
+- Uzrok_smrti: uzrok smrti pacijenta
